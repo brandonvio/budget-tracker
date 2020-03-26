@@ -37,8 +37,7 @@ namespace PurchaseTracker.Api
 
             services.AddDbContext<BudgetDb>(opt =>
                opt.UseSqlServer(_connectionString));
-            //admin@PspaMS8wHYagg6mL
-
+         
             services.AddControllers();
         }
 
